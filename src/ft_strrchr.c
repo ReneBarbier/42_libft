@@ -6,11 +6,10 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/15 16:44:14 by rbarbier          #+#    #+#             */
-/*   Updated: 2023/09/20 12:46:35 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:50:06 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft.h"
 
 char	*ft_strrchr(const char *str, int c)
@@ -29,10 +28,3 @@ char	*ft_strrchr(const char *str, int c)
 	}
 	return ((char *)&str[i]);
 }
-/*
-int	main(void)
-{
-	const char	*str = "hola que tal estas";
-	printf("%s", strrchr(str, 'a'));
-}*/
-//warning error

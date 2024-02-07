@@ -6,12 +6,10 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/15 16:42:05 by rbarbier          #+#    #+#             */
-/*   Updated: 2023/09/18 13:57:58 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:48:22 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
 #include "libft.h"
 
 int	ft_memcmp(const char *s1, const char *s2, size_t n)
@@ -25,13 +23,3 @@ int	ft_memcmp(const char *s1, const char *s2, size_t n)
 		++i;
 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
-/*
-int main()
-{
-	const char s1[] = "hola \0uE tal va";
-	const char s2[] = "hola \0ue tal va";
-
-	printf("%d\n", ft_strncmp(s1, s2, 20));
-	printf("%d\n", memcmp(s1, s2, 20));
-}
-*/

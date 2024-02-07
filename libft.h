@@ -6,14 +6,14 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/15 16:47:45 by rbarbier          #+#    #+#             */
-/*   Updated: 2024/02/07 17:40:44 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:50:50 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stddef.h>
+# include <unistd.h>
 # include <stdlib.h>
 
 typedef struct s_list

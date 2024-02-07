@@ -6,12 +6,11 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/23 11:25:02 by rbarbier          #+#    #+#             */
-/*   Updated: 2023/09/23 11:41:39 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:48:39 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
 void	r_write_num(long n, int fd)
 {

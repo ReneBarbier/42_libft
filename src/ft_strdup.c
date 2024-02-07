@@ -6,11 +6,10 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 14:19:15 by rbarbier          #+#    #+#             */
-/*   Updated: 2023/09/20 15:04:59 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:49:22 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strdup(const char *str)
@@ -31,12 +30,3 @@ char	*ft_strdup(const char *str)
 	d_str[i] = '\0';
 	return (d_str);
 }
-/*
-#include <stdio.h>
-int	main()
-{
-	const char str[] = "hola que tal estas";
-
-	printf("%s\n", ft_strdup(str));
-	printf("%s", strdup(str));
-}*/

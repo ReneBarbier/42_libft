@@ -6,13 +6,11 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 11:16:56 by rbarbier          #+#    #+#             */
-/*   Updated: 2023/09/21 12:27:21 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:50:12 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <string.h>
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
@@ -36,12 +34,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	new_s[i] = 0;
 	return (new_s);
 }
-/*
-#include <stdio.h>
-int main ()
-{
-	char const s1[] = "  1   2  1  3hola que tal 3stas1  2  331 2";
-	char const set[] = " 123";
-	printf("%s\n", s1);
-	printf("%s\n", ft_strtrim(s1, set));
-}*/

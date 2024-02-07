@@ -6,12 +6,10 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/15 16:42:47 by rbarbier          #+#    #+#             */
-/*   Updated: 2023/09/18 15:23:53 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:49:40 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
 #include "libft.h"
 
 unsigned long	ft_strlcat(char *dst, const char *src, size_t size)
@@ -42,14 +40,3 @@ unsigned long	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[i] = '\0';
 	return (full_size);
 }
-/*
-int main ()
-{
-	char dst[11] = "a";
-	char dst1[11] = "a";
-	const char src[] = "lorem";
-	size_t total_size = 15; //sizeof(dst1); 
-	printf("%lu\n", ft_strlcat(dst, src, total_size));
-	printf("%lu\n", strlcat(dst1, src, total_size));
-	printf("%s\n%s", dst, dst1);
-}*/

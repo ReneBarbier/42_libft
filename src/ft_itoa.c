@@ -6,12 +6,11 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 16:13:07 by rbarbier          #+#    #+#             */
-/*   Updated: 2023/09/23 15:15:27 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:47:31 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
 
 int	find_digits(int n)
 {
@@ -56,10 +55,3 @@ char	*ft_itoa(int n)
 	}
 	return (num);
 }
-/*
-#include <stdio.h>
-int	main()
-{
-	int	n = 123;
-	printf("%s", ft_itoa(n));
-}*/

@@ -6,7 +6,7 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 12:58:44 by rbarbier          #+#    #+#             */
-/*   Updated: 2023/09/25 15:55:50 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:46:49 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,7 @@ void	*ft_calloc(size_t nelem, size_t elsize)
 	void	*array;
 
 	if (nelem == 0 || elsize == 0)
-	{
 		return ((void *)malloc(nelem * elsize));
-	}
 	array = (void *)malloc(nelem * elsize);
 	if (!array)
 		return (NULL);

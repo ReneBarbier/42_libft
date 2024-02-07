@@ -6,11 +6,10 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/15 16:43:58 by rbarbier          #+#    #+#             */
-/*   Updated: 2023/09/18 14:05:19 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:49:59 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft.h"
 
 char	*ft_strnstr(const char *str, const char *to_find, size_t len)
@@ -40,12 +39,3 @@ char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 	}
 	return (0);
 }
-/*
-int main ()
-{
-	char s1[] = "holaque";
-	char s2[] = "holaque";
-
-	printf("%s", ft_strnstr(s1, s2, 7));
-
-}*/

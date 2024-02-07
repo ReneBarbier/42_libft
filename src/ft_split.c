@@ -6,7 +6,7 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 12:27:58 by rbarbier          #+#    #+#             */
-/*   Updated: 2023/09/25 15:44:30 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:49:08 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,35 +32,6 @@ int	ft_count_words(char const *s, char c)
 	}
 	return (words);
 }
-
-char	*ft_word_slicer(int start, int end, char const *s)
-{
-	char	*sliced_word;
-	int		i;
-
-	sliced_word = malloc(sizeof(char) * (end - start + 1));
-	if (!sliced_word)
-		return (NULL);
-	i = 0;
-	while (start < end)
-		sliced_word[i++] = s[start++];
-	sliced_word[i] = '\0';
-	return (sliced_word);
-}
-/*
-int	check(char const *s, char c)
-{
-	int	flag;
-
-	flag = 0;
-	while (*s)
-	{
-		if (c == *s)
-			flag = 1;
-		s++;
-	}
-	return (flag);
-}*/
 
 void	ft_free(char **split, int j)
 {
@@ -110,21 +81,3 @@ char	**ft_split(char const *s, char c)
 	split[j] = 0;
 	return (split);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	char const s[] = "   lorem   ipsum dolor     
-	sit amet, consectetur   adipiscing elit. Sed non risus. 
-	Suspendisse   ";
-	char c = ' ';
-	char **str;
-	int i = 0;
-
-	str = ft_split(s, c);
-	while (i < 16)
-	{
-		printf("%s\n", str[i]);
-		i++;
-	}
-}*/

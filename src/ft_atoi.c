@@ -6,7 +6,7 @@
 /*   By: rbarbier <rbarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/15 16:49:23 by rbarbier          #+#    #+#             */
-/*   Updated: 2023/09/23 13:48:55 by rbarbier         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:46:16 by rbarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,11 +71,3 @@ int	ft_atoi(char *str)
 	i -= digits;
 	return (find_num(str, i, digits, negative));
 }
-/*
-#include <stdalign.h>
-#include <stdlib.h>
-int main()
-{
-	printf("%d\n", ft_atoi("  123"));
-	printf("%d", atoi("  123"));
-}*/
